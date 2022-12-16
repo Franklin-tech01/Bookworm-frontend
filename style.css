@@ -1,0 +1,251 @@
+* {
+    /* background-color: whitesmoke; */
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+.row {
+    /* max-width: 1000px; */
+    width: 90%;
+    margin: 0 auto;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.3rem;
+    margin-top: -20px;
+    border-bottom: 5px solid #49bec9;
+    position: static;
+}
+
+.brand {
+    /* margin-right: 160px; */
+    display: flex;
+    align-items: center;
+    background-size: 100%;
+    font-size: 2rem;
+    /* padding-right: 20rem; */
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    height: 60px
+}
+
+.link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    padding: 2rem;
+    height: 50%;
+    color: black;
+    /* font-weight: 700; */
+}
+
+.link:hover {
+    color: rgb(80, 235, 9);
+    ;
+    font-size: larger;
+    transition: all 0.3 ease-in-out;
+}
+
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 0 1rem; */
+    width: 100%;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 10px 10px;
+    height: 50%;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 80px;
+    background: #49bec9;
+    color: #fff;
+    /* border:50% ; */
+}
+
+.button:hover {
+    background: rgb(80, 235, 9);
+    color: black;
+    transition: all 0.50s ease-in-out;
+}
+
+.book {
+    display: flex;
+    font-size: 2.5rem;
+    width: 100%;
+}
+
+.middle {
+    width: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+#image {
+    height: 500px;
+    width: 55%;
+}
+
+.vawluence {
+    display: flex;
+    margin-top: 20px;
+    /* margin-left: 150px; */
+    justify-content: space-evenly;
+}
+
+.comrade {
+    border-color: black;
+    outline: none;
+    border-radius: 60px;
+    background: #4fd34f;
+    color: #ffffff;
+    padding: 10px 15px;
+    outline: none;
+}
+
+/* .text{
+    
+} */
+.comrade a {
+    text-decoration: none;
+    color: black;
+    font-weight:700 ;
+}
+
+.comrade:hover {
+    background: gold;
+    /* border: none; */
+    color: black;
+    transition: all 0.50s ease-in-out;
+    border-color: black;
+    /* box-shadow: 0px 2px 3px 4px ; */
+}
+
+.comrade:hover a {
+    font-weight: 500;
+    color: black;
+}
+
+.comradet {
+    /* border: none; */
+    border-color:black;
+    border-radius: 60px;
+    background: gold;
+    font-weight: 700;
+    padding: 10px 15px;
+}
+
+.comradet a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.comradet:hover{
+    background: #4fd34f;
+}
+
+#gold {
+    color: gold;
+}
+
+#blue {
+    color: #49bec9;
+}
+
+#green {
+    color: #4fd34f;
+}
+
+.why {
+    display: flex;
+    font-size: 3rem;
+    width: 100%;
+    /* color: #fff; */
+    /* background: black; */
+}
+
+.middle2 {
+    width: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+.contact {
+    display: flex;
+    font-size: 3rem;
+    width: 100%;
+}
+
+.middle3 {
+    width: 100%;
+    font-family: cursive;
+    /* font-size: ; */
+    /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+}
+
+.form {
+    margin-top:-180px;
+    font-size: 2rem;
+    font-family: cursive;
+    display: flex;
+}
+
+.place {
+    border-radius: 60px;
+    padding: 10px 20px;
+}
+
+.submit {
+    padding: 10px 15px;
+    border-radius: 50px;
+    background-color: rgb(83, 212, 83);
+}
+
+.submit a {
+    text-decoration: none;
+    font-family: cursive;
+    color: white;
+    font-size: 15px;
+}
+
+.submit:hover {
+    background-color: black;
+    /* color: yellow; */
+    transition: all 0.5s ease-in-out;
+    box-shadow: 15px;
+}
+.footer{
+    background-color: black;
+    color: white;
+    margin-top: 18%;
+    padding: 20px ;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
